@@ -1,0 +1,26 @@
+name: beliven
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python
+  - torchvision
+  - jupyterlab
+  - numpy
+  - pandas
+  - ipython
+  - matplotlib
+  - seaborn
+  - scikit-learn 
+  - tqdm 
+  - numpy 
+  - pip
+  - wordcloud
+  - pytorch 
+  - torchvision
+  - pip:
+    - nltk
+
+
+
+# command to update the packages that are listed above: conda env update --file environment.yml --prune
